@@ -1,0 +1,19 @@
+{
+    "name": "flukedit/igdb-php-wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "James Ross",
+            "email": "jamesross1712@gmail.com"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flukedit\\IgdbPhpWrapper\\": "src/"
+        }
+    }
+}
